@@ -71,7 +71,7 @@ group :test do
   gem 'rspec-rails' # http://betterspecs.org/
   gem 'guard-rspec', require: false
   gem 'parallel_tests'
-  gem 'simplecov', :require => false
+  gem 'simplecov', '>= 0.14.1', :require => false
 end
 
 group :development do
