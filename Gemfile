@@ -8,7 +8,7 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 #gem 'rails', '4.1.1'
-gem 'rails', '~> 5.0.1'
+gem 'rails', '~> 5.2.4', '>= 5.2.4.3'
 
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.19.0'
@@ -17,23 +17,23 @@ gem 'pg', '~> 0.19.0'
 gem 'execjs'
 gem 'therubyracer', platforms: :ruby
 
-gem 'active_model_serializers', '~> 0.10.0'
+gem 'active_model_serializers', '~> 0.10.3'
 
 # Http request
 gem 'httparty', require: false
 
 gem 'graphql'
-gem 'graphql-activerecord'
+gem 'graphql-activerecord', '>= 0.12.3'
 gem 'graphql-batch'
-gem 'graphiql-rails'
+gem 'graphiql-rails', '>= 1.4.2'
 
 # Elasticsearch
 gem 'elasticsearch'
-gem 'elasticsearch-model'
+gem 'elasticsearch-model', '>= 0.1.9'
 gem 'elasticsearch-rails'
 
 # Paging the results
-gem 'kaminari'
+gem 'kaminari', '>= 0.17.0'
 
 gem 'oj'
 gem 'oj_mimic_json'
@@ -46,7 +46,7 @@ gem 'prose'
 
 gem 'puma', '~> 3.0'
 
-gem 'redis-rails'
+gem 'redis-rails', '>= 5.0.1'
 
 gem 'rack-cors'
 
@@ -68,22 +68,22 @@ group :development, :test do
 end
 
 group :test do
-  gem 'rspec-rails' # http://betterspecs.org/
+  gem 'rspec-rails' , '>= 3.5.2' # http://betterspecs.org/
   gem 'guard-rspec', require: false
   gem 'parallel_tests'
   gem 'simplecov', :require => false
 end
 
 group :development do
-  gem 'annotate'
+  gem 'annotate', '>= 2.7.1'
   gem 'ruby-progressbar'
   gem 'byebug', platform: :mri
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'spring'
-  gem 'spring-commands-rspec'
-  gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'spring', '>= 2.0.0'
+  gem 'spring-commands-rspec', '>= 1.0.4'
+  gem 'spring-watcher-listen', '~> 2.0.1'
   gem 'mechanize'
-  gem 'bullet'
-  gem 'meta_request'
+  gem 'bullet', '>= 5.5.0'
+  gem 'meta_request', '>= 0.5.0'
   gem 'rubocop', require: false
 end
