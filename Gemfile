@@ -33,7 +33,7 @@ gem 'elasticsearch-model'
 gem 'elasticsearch-rails'
 
 # Paging the results
-gem 'kaminari'
+gem 'kaminari', '>= 1.2.1'
 
 gem 'oj'
 gem 'oj_mimic_json'
