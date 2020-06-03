@@ -25,7 +25,7 @@ gem 'httparty', require: false
 gem 'graphql'
 gem 'graphql-activerecord'
 gem 'graphql-batch'
-gem 'graphiql-rails'
+gem 'graphiql-rails', '>= 1.4.2'
 
 # Elasticsearch
 gem 'elasticsearch'
