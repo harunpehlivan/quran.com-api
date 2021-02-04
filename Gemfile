@@ -82,7 +82,7 @@ group :development do
   gem 'spring'
   gem 'spring-commands-rspec'
   gem 'spring-watcher-listen', '~> 2.0.0'
-  gem 'mechanize'
+  gem 'mechanize', '>= 2.7.7'
   gem 'bullet'
   gem 'meta_request'
   gem 'rubocop', require: false
