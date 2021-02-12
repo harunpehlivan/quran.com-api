@@ -8,7 +8,7 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 #gem 'rails', '4.1.1'
-gem 'rails', '~> 5.0.1'
+gem 'rails', '~> 6.0.3', '>= 6.0.3.5'
 
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.19.0'
@@ -25,7 +25,7 @@ gem 'httparty', require: false
 gem 'graphql'
 gem 'graphql-activerecord'
 gem 'graphql-batch'
-gem 'graphiql-rails'
+gem 'graphiql-rails', '>= 1.4.2'
 
 # Elasticsearch
 gem 'elasticsearch'
