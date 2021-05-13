@@ -44,7 +44,7 @@ gem 'parallel'
 
 gem 'prose'
 
-gem 'puma', '~> 3.0'
+gem 'puma', '~> 4.3', '>= 4.3.8'
 
 gem 'redis-rails'
 
